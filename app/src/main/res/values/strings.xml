@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">E-Dziennik</string>
+    <string name="menu">MENU</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="informacje">Informacje</string>
+    <string name="witaj">Witaj!</string>
+    <string name="login">Login</string>
+    <string name="zaloguj_sie">Zaloguj się</string>
+    <string name="haslo">Hasło</string>
+    <string name="logowanie">Logowanie</string>
+    <string name="podaj_login_haslo">Podaj swój login i hasło</string>
+    <string name="wyloguj">Wyloguj</string>
+    <string name="oceny">Oceny</string>
+</resources>

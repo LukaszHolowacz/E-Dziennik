@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/informacje"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="@string/informacje"
+        app:showAsAction="never"
+        android:onClick="onMenuItemClick"/>
+
+    <item
+        android:id="@+id/oceny"
+        android:icon="@drawable/ic_baseline_looks_6_24"
+        android:title="@string/oceny"
+        app:showAsAction="never"
+        android:onClick="onMenuItemClick"/>
+
+    <item
+        android:id="@+id/logowanie"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="@string/zaloguj"
+        app:showAsAction="never"
+        android:onClick="onMenuItemClick"/>
+</menu>
