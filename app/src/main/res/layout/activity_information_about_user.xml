@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationAboutUserActivity"
+    android:background="@drawable/background">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/granatowy"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:background="@drawable/ic_baseline_menu_24"
+            android:backgroundTint="@color/white"
+            android:contentDescription="@string/menu"
+            android:onClick="showMenu"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="75dp"
+            android:text="@string/logowanie"
+            android:textColor="@color/white"
+            android:autoSizeTextType="uniform"
+            android:textAlignment="center"
+            tools:targetApi="o" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:columnCount="2"
+        android:layout_column="0"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:text="Imię: "
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:text="Nazwisko: "
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/surname"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:text="Klasa: "
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/klasa"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:text="Data urodzenia: "
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/birthday"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:text="Numer telefonu: "
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/phone_nbr"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:text="E-mail: "
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:text="Adres zamieszkania: "
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/addres"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:layout_row="0"
+            android:text="Pesel: "
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/pesel"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_columnWeight="1"
+            android:textColor="@color/granatowy"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+    </GridLayout>
+
+</GridLayout>
